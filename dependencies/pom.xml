@@ -1,0 +1,85 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>cn.vincent.taste.spicy</groupId>
+        <artifactId>taste-spicy</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>taste-spicy-dependencies</artifactId>
+    <packaging>pom</packaging>
+    <name>味觉01-工具spicy[版本依赖]</name>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>cn.vincent.taste.spicy</groupId>
+                <artifactId>taste-spicy-helper</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.vincent.taste.spicy</groupId>
+                <artifactId>taste-spicy-encrypt</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.vincent.taste.spicy</groupId>
+                <artifactId>taste-spicy-support</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.vincent.taste.spicy</groupId>
+                <artifactId>taste-spicy-fastjson</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.vincent.taste.spicy</groupId>
+                <artifactId>taste-spicy-jackson</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.vincent.taste.spicy</groupId>
+                <artifactId>taste-spicy-spring</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.vincent.taste.spicy</groupId>
+                <artifactId>taste-spicy-mybatis</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.vincent.taste.spicy</groupId>
+                <artifactId>taste-spicy-slog4j</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.vincent.taste.spicy</groupId>
+                <artifactId>taste-spicy-rpc-dubbo</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.vincent.taste.spicy</groupId>
+                <artifactId>taste-spicy-rpc-hessian</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.vincent.taste.spicy</groupId>
+                <artifactId>taste-spicy-rpc-support</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.vincent.taste.spicy</groupId>
+                <artifactId>taste-spicy-rpc-webservice</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.vincent.taste.spicy</groupId>
+                <artifactId>taste-spicy-web</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>

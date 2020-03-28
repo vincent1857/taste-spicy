@@ -1,0 +1,2 @@
+dubboProviderLogFilter=cn.vincent.taste.spicy.rpc.dubbo.filter.LogProviderFilter
+dubboConsumerLogFilter=cn.vincent.taste.spicy.rpc.dubbo.filter.LogConsumerFilter
